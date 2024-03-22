@@ -1,0 +1,57 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 1000px;
+  color: aquamarine;
+  background-color: rgb(68, 63, 63);
+}
+.navigation {
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.navigation a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid rgb(41, 141, 116);
+}
+.navigation a {
+  color: rgb(41, 141, 116);
+}
+a {
+  border-bottom: 2px solid transparent;
+}
+p {
+  color: cyan;
+}
+.controls {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr;
+  gap: 0.7rem;
+}
+
+label {
+  font-size: 0.8rem;
+  justify-self: end;
+}
+
+input[type="reset"],
+input[type="submit"] {
+  width: 5rem;
+  justify-self: end;
+}
+
+input[type="reset"] {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+input[type="submit"] {
+  grid-column: 2;
+  grid-row: 3;
+}

@@ -1,0 +1,70 @@
+body {
+  color: aquamarine;
+  background-color: rgb(68, 63, 63);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 100%;
+  width: 50%;
+}
+:root {
+  --primaerfarbe: rgb(41, 141, 116);
+}
+h1,
+h2 {
+  background-color: rgb(68, 63, 63);
+  color: rgb(41, 141, 116);
+}
+.navigation {
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  flex-direction: wrap;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.navigation a {
+  color: var(--primaerfarbe);
+}
+a {
+  border-bottom: 2px solid transparent;
+}
+.navigation a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid var(--primaerfarbe);
+}
+html {
+  scroll-behavior: smooth;
+}
+.textBildContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+img {
+  border: 2px solid var(--primaerfarbe);
+  border-radius: 50%;
+  max-width: 250px;
+  height: 100%;
+}
+h1 {
+  display: inline;
+}
+.über-aoe {
+  display: flex;
+  flex-direction: row;
+}
+.projekte {
+  display: flex;
+  flex-direction: row;
+}
+.bereiche {
+  display: flex;
+  flex-direction: row;
+}
+.aoestandorte {
+  display: flex;
+  flex-direction: row;
+}
+.img2 {
+  width: 50%;
+}
